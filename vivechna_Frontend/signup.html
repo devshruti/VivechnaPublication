@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Publishing Company - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="signup">
+
+    <div class="container-fluid px-md-5  pt-4 pt-md-5">
+        <div class="row justify-content-between">
+            <div class="col-md-8 order-md-last">
+                <div class="row">
+
+                    <div class="col-md-6 text-center">
+                        <img style="margin:0px 15px 30px 0px;" height="80px" width="80px" src="images/logo.png" alt="">
+                        <a class="navbar-brand" style="color: rgb(8, 64, 128);" href="index.html">Vivechna
+                            <span>Publication</span> <small></small></a>
+                    </div>
+                    <div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
+                        <!-- <form action="#" class="searchform order-lg-last">
+							<div class="form-group d-flex">
+								<input type="text" class="form-control pl-3" placeholder="Search">
+								<button type="submit" placeholder="" class="form-control search"><span
+										class="fa fa-search"></span></button>
+							</div>
+						</form> -->
+                        <!-- <div class="user-img rounded-circle overflow-hidden" style="width: 50px; height: 50px;">
+							<img src="./images/person_4.jpg" alt="" class="img-fluid">
+						</div> -->
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="social-media">
+                    <p class="mb-0 d-flex">
+                        <a href="https://m.facebook.com/people/advranjeet/100075715936526/" target="_blank"
+                            class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i
+                                    class="sr-only">Facebook</i></span></a>
+                        <!-- <a  target="_blank" class="d-flex align-items-center justify-content-center"><span
+								class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a> -->
+                        <a href="https://www.instagram.com/vivechnaofficial?igsh=MWFjOWU2eXN6bmloZg=="
+                            class="d-flex align-items-center justify-content-center" target="_blank"><span
+                                class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                        <a href="https://www.linkedin.com/company/vivechna-publication/" target="_blank"
+                            class="d-flex align-items-center justify-content-center"><span class="fa fa-linkedin"><i
+                                    class="sr-only">Linkedin</i></span></a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END nav -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="notificationModal" tabindex="-1" role="dialog" aria-labelledby="notificationModalLabel"
+        aria-hidden="true" style="border-radius: 10px; margin: auto; height: 70%; border: none; top: 10;">
+        <div class="modal-dialog" role="document" style="background-color: #084080; margin: auto; cursor: pointer;">
+            <!-- <div class="modal-content"> -->
+            <div class="modal-header">
+                <div class="modal-body" id="notificationMessage"
+                    style="color: #ffffff; font-weight: 600; font-size: 20px;">
+                    <!-- Notification message will be displayed here -->
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                    style="color: #ffffff; font-weight: 600; cursor: pointer;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+    <!--Main Content-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- Signup Form -->
+                <div class="card mt-5 mb-5">
+                    <div class="card-header" style="display: flex; justify-content: end;">
+                        <h1 style="font-size: 24px; font-weight: 600; margin: auto;">Signup</h1>
+                    </div>
+                    <div class="card-body">
+                        <form id="signupForm">
+
+                            <!-- <div class=" d-flex">
+                                <button id="googleLogin" class="google"
+                                    style="cursor: pointer; border-radius: 50%; height: 50px; width: 50px; color: #ffffff; border: none; background-color: #95adbe; margin: auto;"
+                                    data-toggle="tooltip" data-placement="bottom" title="Sign in with Google">
+                                    <span class="fa fa-google"><i class="sr-only">Google</i></span>
+                                </button>
+                            </div> -->
+
+                            <div class="form-group">
+                                <label for="signupUsername">Username:</label>
+                                <input type="text" class="form-control" id="signupUsername" required
+                                    autocomplete="current-username">
+                            </div>
+                            <div class="form-group">
+                                <label for="signupEmail">Email:</label>
+                                <input type="email" class="form-control" id="signupEmail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="signupPassword">Password:</label>
+                                <input type="password" class="form-control" id="signupPassword" required
+                                    autocomplete="current-password">
+                                <!-- <p class="pass" style="font-size:small; color: rgb(230, 3, 3); text-align: center;">
+                                    Password should contain contain at least one numeric digit, one uppercase, one
+                                    lowercase letter and a special character</p> -->
+                            </div>
+                            <button type="submit" class="btn btn-success"
+                                style="width: 100%; background-color: #084080; height: 50px; font-size: large;">Signup</button>
+                        </form>
+                    </div>
+                    <div class="text-center mb-4">
+                        <a href="login.html" style="cursor: pointer; color: #5252ff;">Login if already registered</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer -->
+    <footer class="ftco-footer">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2 logo"><a>Connect</a></h2>
+                        <p>Far far away, behind the word mountains, far from the countries.</p>
+                        <ul class="ftco-footer-social list-unstyled mt-2">
+                            <li class="ftco-animate"><a href="https://www.linkedin.com/company/vivechna-publication/"
+                                    target="_blank"><span class="fa fa-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="https://m.facebook.com/people/advranjeet/100075715936526/"
+                                    target="_blank"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a
+                                    href="https://www.instagram.com/vivechnaofficial?igsh=MWFjOWU2eXN6bmloZg=="
+                                    target="_blank"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-sm-12 col-md">
+				<div class="ftco-footer-widget mb-4 ml-md-4">
+					<h2 class="ftco-heading-2">Extra Links</h2>
+					<ul class="list-unstyled">
+						<li><a href=""><span class="fa fa-chevron-right mr-2"></span>Affiliate Program</a></li>
+						<li><a href=""><span class="fa fa-chevron-right mr-2"></span>Business Services</a></li>
+						<li><a href=""><span class="fa fa-chevron-right mr-2"></span>Education Services</a></li>
+						<li><a href=""><span class="fa fa-chevron-right mr-2"></span>Gift Cards</a></li>
+					</ul>
+				</div>
+			</div> -->
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">Legal</h2>
+                        <ul class="list-unstyled">
+                            <!-- <li><a href=""><span class="fa fa-chevron-right mr-2"></span>Join us</a></li> -->
+                            <li><a href="blog.html"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li>
+                            <li><a href="privacy.html"><span class="fa fa-chevron-right mr-2"></span>Privacy &amp;
+                                    Policy</a></li>
+                            <li><a href="privacy.html#terms"><span class="fa fa-chevron-right mr-2"></span>Term &amp;
+                                    Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Company</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
+                            <!-- <li><a href="blog.html"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li> -->
+                            <li><a href="contact.html"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+                            <li><a href="careers.html"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map marker"></span><span class="text">67, Model Town
+                                        Extension , Near Sec.3 Police Chowki, Rewari 123401</span></li>
+                                <li><span class="icon fa fa-phone"></span><span class="text">+91-8053099154</span></li>
+                                <li><span class="icon fa fa-paper-plane pr-4"></span><span
+                                        class="text">vivechnapublication@gmail.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-0 py-5 bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="mb-0" style="color: rgba(255,255,255,.5);">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved@ 2023 <i
+                                class="fa fa-heart color-danger" aria-hidden="true"></i>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- <script src="js/owl.carousel.min.js"></script> -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <!-- <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script> -->
+    <script src="js/main.js"></script>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+        import { getDatabase, set, ref, push } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+        const firebaseConfig = {
+            apiKey: "AIzaSyCY1UHNU-LpIc0mtzztdHZzQYgG0Ya3i18",
+            authDomain: "vivechna-authentication.firebaseapp.com",
+            projectId: "vivechna-authentication",
+            storageBucket: "vivechna-authentication.appspot.com",
+            messagingSenderId: "352321555441",
+            appId: "1:352321555441:web:d947f7bbd7900c10d19250"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig)
+        const auth = getAuth(app);
+        const provider = new GoogleAuthProvider(app);
+        const database = getDatabase()
+
+        // googleLogin.addEventListener('click', (e) => {
+        //     e.preventDefault()
+        //     signInWithPopup(auth, provider)
+        //         .then((result) => {
+        //             // This gives you a Google Access Token. You can use it to access the Google API.
+        //             const credential = GoogleAuthProvider.credentialFromResult(result);
+        //             const token = credential.accessToken;
+        //             // The signed-in user info.
+        //             const user = result.user;
+        //             showNotification(user.displayName)
+
+        //         }).catch((error) => {
+        //             // Handle Errors here.
+        //             const errorCode = error.code;
+        //             const errorMessage = error.message;
+        //             // The email of the user's account used.
+        //             const email = error.customData.email;
+        //             // The AuthCredential type that was used.
+        //             const credential = GoogleAuthProvider.credentialFromError(error);
+        //             // ...
+        //             showNotification(errorMessage)
+        //         });
+        // })
+
+        let showNotification = (message) => {
+            // Set the message in the modal
+            document.getElementById("notificationMessage").innerText = message;
+
+            // Show the modal
+            $('#notificationModal').modal('show');
+        }
+
+
+        const signupForm = document.getElementById("signupForm")
+
+
+        let RegisterUser = (e) => {
+            e.preventDefault()
+
+            const email = document.getElementById("signupEmail")
+            const password = document.getElementById("signupPassword")
+            const username = document.getElementById("signupUsername")
+
+
+            createUserWithEmailAndPassword(auth, email.value, password.value)
+                .then((credentials) => {
+                    if (ValidateEmail(email.value) === false || CheckPassword(password.value) === false) {
+                        showNotification('Please enter a valid Email ID or Password')
+                        return
+                    }
+
+                    const userRef = ref(database, 'UsersAuthList');
+                    const newUserRef = push(userRef);
+
+                    set(newUserRef, {
+                        UserId: newUserRef.key,
+                        Username: username.value,
+                    });
+                    console.log(credentials)
+                    showNotification("User Registered!")
+                    setTimeout(() => {
+                        window.location.href = "login.html"
+                    }, 500)
+
+
+                })
+                .catch((error) => {
+                    console.log(error.message)
+                    console.log(error.code)
+                    if (error.code === undefined) {
+                        showNotification("Unable to register user!!")
+                    } else {
+                        showNotification(error.code)
+                    }
+                })
+        }
+
+        function ValidateEmail(email) {
+            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+                return (true)
+            }
+            showNotification("You have entered an invalid email address!")
+            return (false)
+        }
+
+        function CheckPassword(password) {
+            var paswd = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
+            if (password.match(paswd)) {
+                return true;
+            }
+            else {
+                showNotification('Password should contain contain at least one numeric digit, one uppercase, one lowercase letter and a special character')
+                return false;
+            }
+        }
+
+        signupForm.addEventListener('submit', RegisterUser)
+
+    </script>
+
+</body>
+
+</html>

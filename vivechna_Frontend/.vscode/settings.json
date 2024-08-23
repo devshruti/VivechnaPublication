@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5501,
+    "web_accessible_resources": [
+        "src/assets/styles.css",
+        "src/assets/locales/en/translation.json"
+      ],
+}
